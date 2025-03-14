@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information</title>
+</head>
+<body style="background-color:PaleGreen; font-family:Fixedsys;">
+<h2 style="border:2px dashed red; text-align:center;">SUBMIT FORM</h2>
+<form method="post" enctype="multipart/form-data">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter the Name" required><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter the Email Address"required><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter the password" required><br><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="Male">
+<label for="gender">Male</label>
+<input type="radio" id="gender" name="gender" value="Female">
+<label for="gender">Female</label><bR><br>
+<label for="interests">Interests:</label>
+<input type="checkbox" name="interests" value="Music">Music
+<input type="checkbox" name="interests" value="Sports">Sports
+<input type="checkbox" name="interests" value="Online Games">Online Games
+<input type="checkbox" name="interests" value="Cooking">Cooking<br><br>
+<label for="country">Country:</label>
+<select id="country" name="country">
+<option value=""></option>
+<option value="India">India</option>
+<option value="UK">UK</option>
+<option value="US">US</option>
+<option value="Australia">Australia</option>
+<option value="Canada">Canada</option>
+</select><br><br>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="4" cols="8" placeholder="Enter Your comments">
+</textarea><br><Br>
+<label for="file">File Upload:</label>
+<input type="file" id="file" name="file">
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
